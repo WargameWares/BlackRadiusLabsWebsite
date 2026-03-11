@@ -312,12 +312,11 @@ footer {
 
 @media (max-width: 600px) {
   .nav {
-    flex-direction: column;
-    text-align: center;
+    justify-content: center;
   }
 
   .nav-links {
-    justify-content: center;
+    display: none;
   }
 
   header {
@@ -328,7 +327,29 @@ footer {
     padding: 50px 0 24px;
   }
 
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
   .card {
     padding: 20px;
+  }
+
+  .card p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .screenshot-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    overflow-x: visible;
+    justify-content: stretch;
+  }
+
+  .screenshot-gallery img {
+    height: auto;
+    width: 100%;
   }
 }
