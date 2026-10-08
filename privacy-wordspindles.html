@@ -11,7 +11,7 @@
   <main class="legal-page">
     <div class="container">
       <h1>Word Spindles Privacy Policy</h1>
-      <p class="effective-date"><strong>Effective date:</strong> 7 October 2026</p>
+      <p class="effective-date"><strong>Effective date:</strong> 8 October 2026</p>
 
       <p>
         Word Spindles is operated by <strong>Munchkin Marketing Ltd.</strong> (Company No. 11948331) trading as <strong>Black Radius Labs</strong>.
@@ -54,25 +54,29 @@
         <li>This UID is used to store and sync gameplay progress using Firebase Firestore.</li>
         <li>This identifier does not directly identify you as a person.</li>
       </ul>
-      <p>If you choose to sign in with Google (when available):</p>
+      <p>If you sign in to Google Play Games (automatically at launch where your device is already signed in, or from <strong>Menu &rarr; Settings</strong>):</p>
       <ul>
-        <li>Your Google account identifier may be used to link and back up your game progress.</li>
+        <li>Your Play Games player identifier is linked to your anonymous account so your progress can be restored after a reinstall or on another device.</li>
+        <li>Your saved progress includes your level, hint balance, unlocked and selected wheels and backgrounds, whether you own Remove Ads, today's rewarded-ad count, and the transaction IDs of purchases already delivered (to prevent duplicate grants).</li>
         <li>We do not receive your Google password.</li>
         <li>We do not access your Google emails or contacts.</li>
       </ul>
 
       <h3>B. Gameplay and Usage Data</h3>
-      <p>We collect analytics information such as:</p>
+      <p>We use Google Analytics for Firebase to understand how the Game is played so we can improve it. It records:</p>
       <ul>
-        <li>Session duration</li>
-        <li>Puzzles solved</li>
-        <li>Hints used</li>
-        <li>In-game actions</li>
-        <li>Progression data</li>
-        <li>In-app purchase events</li>
-        <li>Feature usage</li>
+        <li>App opens, sessions and how long they last (collected automatically by Firebase)</li>
+        <li>Levels started and completed for the first time, with the time taken, hints used and shuffles used</li>
+        <li>Tutorial started, completed or skipped</li>
+        <li>Hints used, hint shop opened, and whether a rewarded ad was completed</li>
+        <li>Purchases started, completed (including price and currency, reported by Google Play) or failed</li>
+        <li>Advertisement impressions and the revenue they earn (reported by AdMob)</li>
+        <li>Simple attributes: highest level reached, and whether you have made a purchase, own Remove Ads, or are signed in to Play Games</li>
       </ul>
-      <p>This information is collected through Google Analytics for Firebase.</p>
+      <p>Analytics data is linked to a random app-instance identifier, not to your name or email. We do not use Google Signals.</p>
+      <p>
+        <strong>Your choice:</strong> you can turn analytics off at any time from <strong>Menu &rarr; Settings &rarr; Share usage data</strong>. In the UK and EEA, storing analytics identifiers on your device also follows the choice you make in the consent form; if you do not consent, Firebase sends only limited, cookieless measurements without a device identifier.
+      </p>
 
       <h3>C. Device and Technical Information</h3>
       <p>We may collect:</p>
@@ -84,10 +88,14 @@
         <li>Language</li>
         <li>Crash reports and diagnostics</li>
       </ul>
-      <p>Crash data is collected through Firebase Crashlytics.</p>
+      <p>Crash data is collected through Firebase Crashlytics and is associated with your anonymous account identifier so we can investigate problems.</p>
 
       <h3>D. Advertising Data</h3>
-      <p>Word Spindles uses Google AdMob to display advertisements, including rewarded video advertisements that users may voluntarily watch in exchange for optional in-game rewards (such as hints).</p>
+      <p>Word Spindles uses Google AdMob to display advertisements:</p>
+      <ul>
+        <li><strong>Rewarded ads</strong> that you may choose to watch in exchange for a hint (limited per day).</li>
+        <li><strong>Interstitial ads</strong> shown occasionally between levels once you are past the early levels. These can be removed with the Remove Ads purchase.</li>
+      </ul>
       <p>AdMob and its advertising partners may collect and process:</p>
       <ul>
         <li>Advertising identifiers (such as the Google Advertising ID)</li>
@@ -100,7 +108,19 @@
       <p>
         For users in regions where consent is required (such as the UK and EEA), we use Google's User Messaging Platform (UMP) to collect and manage advertising consent in accordance with applicable law. Your consent preferences are stored and respected by the Google Mobile Ads SDK.
       </p>
-      <p>You may update your advertising consent choices at any time within the app from <strong>Menu &rarr; Legal &rarr; Privacy Settings</strong>.</p>
+      <p>You may update your consent choices at any time within the app from <strong>Menu &rarr; Legal &rarr; Privacy Settings</strong>.</p>
+
+      <h3>E. Purchases</h3>
+      <p>
+        Hint packs (consumable) and Remove Ads (one-time, non-consumable) are sold through Google Play Billing. Google processes your payment; we never receive your card or payment details. We receive the product, a transaction ID and a purchase receipt, which we verify before delivering the item.
+      </p>
+
+      <h3>F. Other Google Play and Firebase Features</h3>
+      <ul>
+        <li><strong>Remote Config</strong> (Firebase) lets us adjust game settings, such as how often interstitial ads appear, without an app update.</li>
+        <li><strong>In-app review</strong> occasionally asks Google Play to show its rating prompt. Your rating and review go to Google Play; we do not receive them through the Game.</li>
+        <li><strong>In-app updates</strong> check Google Play for a newer version of the Game.</li>
+      </ul>
 
       <h2>3. How We Use Information</h2>
       <p>We process information to:</p>
@@ -110,7 +130,8 @@
         <li>Improve gameplay experience and balancing</li>
         <li>Analyse performance and usage trends</li>
         <li>Serve and measure advertisements</li>
-        <li>Process in-app purchases via Google Play</li>
+        <li>Process and verify in-app purchases via Google Play</li>
+        <li>Adjust game and advertising settings remotely</li>
         <li>Detect and prevent fraud, cheating, or abuse</li>
         <li>Maintain security and integrity of backend services</li>
       </ul>
@@ -120,18 +141,18 @@
       <ul>
         <li><strong>Legitimate Interests</strong> – to operate, secure, and improve the Game.</li>
         <li><strong>Performance of a Contract</strong> – to provide the Game and process in-app purchases.</li>
-        <li><strong>Consent</strong> – for personalised advertising and the use of advertising identifiers where required by applicable law.</li>
+        <li><strong>Consent</strong> – for personalised advertising, the use of advertising identifiers, and storing analytics identifiers on your device, where required by applicable law.</li>
         <li><strong>Legal Obligations</strong> – where required by applicable law.</li>
       </ul>
-      <p>You may withdraw consent for personalised advertising at any time through in-app settings (where available).</p>
+      <p>You may withdraw consent at any time from <strong>Menu &rarr; Legal &rarr; Privacy Settings</strong>, and switch analytics off from <strong>Menu &rarr; Settings &rarr; Share usage data</strong>.</p>
 
       <h2>5. Sharing of Information</h2>
       <p>We do not sell your personal data.</p>
       <p>We may share information with trusted service providers that help operate the Game, including:</p>
       <ul>
-        <li>Google Firebase (Authentication, Firestore, Analytics, Crashlytics)</li>
+        <li>Google Firebase (Authentication, Firestore, Analytics, Crashlytics, Remote Config)</li>
         <li>Google AdMob (advertising)</li>
-        <li>Google Play Services (payments and platform functionality)</li>
+        <li>Google Play Services (payments, Play Games sign-in, reviews, updates and platform functionality)</li>
       </ul>
       <p>These providers process data according to their own privacy policies and applicable data protection laws.</p>
 
@@ -149,6 +170,13 @@
         <li>Comply with legal obligations</li>
         <li>Resolve disputes</li>
         <li>Enforce agreements</li>
+      </ul>
+      <p>Specifically:</p>
+      <ul>
+        <li><strong>Cloud save and account</strong> – kept until you delete your account.</li>
+        <li><strong>Analytics</strong> – event-level data is kept for 14 months, then deleted; aggregated reports may be kept longer.</li>
+        <li><strong>Crash reports</strong> – kept by Crashlytics for 90 days.</li>
+        <li><strong>Purchase records</strong> – held by Google Play under its own policies.</li>
       </ul>
       <p>If you stop using the Game, your anonymous account and associated progress data may be retained unless you request deletion.</p>
 
@@ -169,8 +197,13 @@
         <a href="https://www.ico.org.uk" target="_blank" rel="noopener noreferrer">https://www.ico.org.uk</a>
       </p>
 
+      <h3>US State Privacy Rights</h3>
+      <p>
+        If you live in a US state with a consumer privacy law (such as California, Colorado, Connecticut, Virginia or Utah), you may have the right to know, access, correct and delete the personal information we hold, and to opt out of targeted advertising. We do not sell personal information. Where AdMob shows personalised ads, this may count as "sharing" for targeted advertising; you can opt out from <strong>Menu &rarr; Legal &rarr; Privacy Settings</strong> where shown, or through your device's ad settings. We will not discriminate against you for exercising these rights.
+      </p>
+
       <h2>9. Data Deletion Requests</h2>
-      <p>You can delete your account directly in the app from <strong>Menu &rarr; Legal &rarr; Delete Account</strong>. This is the fastest way to remove your account and associated game data.</p>
+      <p>You can delete your account directly in the app from <strong>Menu &rarr; Legal &rarr; Delete Account</strong>. This is the fastest way to remove your account and associated game data. It also resets the Game's analytics identifier on your device.</p>
       <p>If you cannot access the app and wish to request deletion manually, please contact us at:</p>
       <p><strong>admin@blackradiuslabs.com</strong></p>
       <p>For more details, see our <a href="delete-account-wordspindles.html">Account Deletion</a> page.</p>
